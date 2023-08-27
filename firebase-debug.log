@@ -1,0 +1,285 @@
+[debug] [2023-08-26T04:27:02.785Z] ----------------------------------------------------------------------
+[debug] [2023-08-26T04:27:02.790Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\91866\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-08-26T04:27:02.791Z] CLI Version:   12.5.2
+[debug] [2023-08-26T04:27:02.791Z] Platform:      win32
+[debug] [2023-08-26T04:27:02.792Z] Node Version:  v20.5.1
+[debug] [2023-08-26T04:27:02.792Z] Time:          Sat Aug 26 2023 09:57:02 GMT+0530 (India Standard Time)
+[debug] [2023-08-26T04:27:02.792Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-26T04:27:02.939Z] Object ".firestore" in "firebase.json" has unknown property: {"additionalProperty":"port"}
+[debug] [2023-08-26T04:27:02.940Z] Field ".firestore" in "firebase.json" is possibly invalid: should be array
+[debug] [2023-08-26T04:27:02.940Z] Field ".firestore" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2023-08-26T04:27:02.949Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-26T04:27:02.949Z] > authorizing via signed-in user (psrahulram@gmail.com)
+[debug] [2023-08-26T04:27:03.127Z] java version "19" 2022-09-20
+
+[debug] [2023-08-26T04:27:03.127Z] Java(TM) SE Runtime Environment (build 19+36-2238)
+Java HotSpot(TM) 64-Bit Server VM (build 19+36-2238, mixed mode, sharing)
+
+[debug] [2023-08-26T04:27:03.176Z] Parsed Java major version: 19
+[info] i  emulators: Starting emulators: functions, firestore, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, firestore, hosting"}}
+[debug] [2023-08-26T04:27:03.194Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-26T04:27:03.194Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-26T04:27:03.194Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-26T04:27:03.194Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-26T04:27:03.195Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-08-26T04:27:03.213Z] [hub] writing locator at C:\Users\91866\AppData\Local\Temp\hub-e-commerce-4905f.json
+[debug] [2023-08-26T04:27:03.227Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-26T04:27:03.228Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-26T04:27:03.228Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-08-26T04:27:03.233Z] defaultcredentials: writing to file C:\Users\91866\AppData\Roaming\firebase\psrahulram_gmail_com_application_default_credentials.json
+[debug] [2023-08-26T04:27:03.236Z] Setting GAC to C:\Users\91866\AppData\Roaming\firebase\psrahulram_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\91866\\AppData\\Roaming\\firebase\\psrahulram_gmail_com_application_default_credentials.json"}}
+[debug] [2023-08-26T04:27:03.237Z] > refreshing access token with scopes: []
+[debug] [2023-08-26T04:27:03.239Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-08-26T04:27:03.240Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-26T04:27:04.752Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-08-26T04:27:04.752Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-26T04:27:04.777Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-4905f/adminSdkConfig [none]
+[debug] [2023-08-26T04:27:06.086Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-4905f/adminSdkConfig 200
+[debug] [2023-08-26T04:27:06.086Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-4905f/adminSdkConfig {"projectId":"e-commerce-4905f","databaseURL":"https://e-commerce-4905f-default-rtdb.firebaseio.com","storageBucket":"e-commerce-4905f.appspot.com"}
+[info] i  firestore: downloading cloud-firestore-emulator-v1.18.1.jar... {"metadata":{"emulator":{"name":"firestore"},"message":"downloading cloud-firestore-emulator-v1.18.1.jar..."}}
+[debug] [2023-08-26T04:27:06.125Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-firestore-emulator-v1.18.1.jar 
+[debug] [2023-08-26T04:27:06.824Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-firestore-emulator-v1.18.1.jar 200
+[debug] [2023-08-26T04:27:06.824Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-firestore-emulator-v1.18.1.jar [stream]
+[debug] [2023-08-26T04:30:20.201Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-08-26T04:30:20.201Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2023-08-26T04:30:20.201Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\91866\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.18.1.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","e-commerce-4905f","--rules","C:\\Users\\91866\\OneDrive\\Desktop\\ECommerce React\\ecommerce\\firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\91866\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.18.1.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"e-commerce-4905f\",\"--rules\",\"C:\\\\Users\\\\91866\\\\OneDrive\\\\Desktop\\\\ECommerce React\\\\ecommerce\\\\firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[debug] [2023-08-26T04:30:22.592Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-4905f/sites 
+[debug] [2023-08-26T04:30:24.738Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-4905f/sites 200
+[debug] [2023-08-26T04:30:24.738Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-4905f/sites {"sites":[{"name":"projects/e-commerce-4905f/sites/e-commerce-4905f","defaultUrl":"https://e-commerce-4905f.web.app","appId":"1:799045090032:web:91eba1ca5e72c9a426e035","type":"DEFAULT_SITE"}]}
+[debug] [2023-08-26T04:30:24.739Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-4905f/webApps/1:799045090032:web:91eba1ca5e72c9a426e035/config [none]
+[debug] [2023-08-26T04:30:26.550Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-4905f/webApps/1:799045090032:web:91eba1ca5e72c9a426e035/config 200
+[debug] [2023-08-26T04:30:26.550Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-4905f/webApps/1:799045090032:web:91eba1ca5e72c9a426e035/config {"projectId":"e-commerce-4905f","appId":"1:799045090032:web:91eba1ca5e72c9a426e035","databaseURL":"https://e-commerce-4905f-default-rtdb.firebaseio.com","storageBucket":"e-commerce-4905f.appspot.com","apiKey":"AIzaSyDlxyf6BqSPlla5aTnS6XIKnLHkdATGiYE","authDomain":"e-commerce-4905f.firebaseapp.com","messagingSenderId":"799045090032","measurementId":"G-RKSKZZB6YJ"}
+[debug] [2023-08-26T04:30:26.567Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-4905f [none]
+[debug] [2023-08-26T04:30:27.275Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-4905f 200
+[debug] [2023-08-26T04:30:27.275Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-4905f {"projectId":"e-commerce-4905f","projectNumber":"799045090032","displayName":"E Commerce","name":"projects/e-commerce-4905f","resources":{"hostingSite":"e-commerce-4905f","realtimeDatabaseInstance":"e-commerce-4905f-default-rtdb"},"state":"ACTIVE","etag":"1_23a515e5-842c-422b-bfc5-f5ecabbd8454"}
+[info] i  hosting[e-commerce-4905f]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[e-commerce-4905f]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2023-08-26T04:30:27.313Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-08-26T04:30:27.313Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-08-26T04:30:27.313Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\91866\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\91866\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-08-26T04:30:27.525Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-08-26T04:30:27.526Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\91866\OneDrive\Desktop\ECommerce React\ecommerce\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\91866\\OneDrive\\Desktop\\ECommerce React\\ecommerce\\functions\" for Cloud Functions..."}}
+[debug] [2023-08-26T04:30:27.604Z] Validating nodejs source
+[debug] [2023-08-26T04:30:31.941Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^13.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-08-26T04:30:31.941Z] Building nodejs source
+[debug] [2023-08-26T04:30:31.942Z] Failed to find version of module node: reached end of search path C:\Users\91866\OneDrive\Desktop\ECommerce React\ecommerce\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2023-08-26T04:30:31.946Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-08-26T04:30:31.956Z] Found firebase-functions binary at 'C:\Users\91866\OneDrive\Desktop\ECommerce React\ecommerce\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8883
+
+[debug] [2023-08-26T04:30:33.321Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] +  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/e-commerce-4905f/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/e-commerce-4905f/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Firestore │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-08-26T04:33:57.016Z] [work-queue] {"queuedWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T04:33:57.014Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T04:33:57.019Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T04:33:57.014Z"],"workRunningCount":1}
+[debug] [2023-08-26T04:33:57.020Z] Accepted request POST /e-commerce-4905f/us-central1/api/payments/create?total=25096 --> us-central1-api
+[debug] [2023-08-26T04:33:57.041Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-08-26T04:33:57.043Z] [functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=25096, mapping to path=/payments/create?total=25096 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=25096, mapping to path=/payments/create?total=25096"}}
+[debug] [2023-08-26T04:33:57.069Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-08-26T04:33:57.070Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2023-08-26T04:33:59.995Z] [runtime-status] [10580] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.10.1","resolution":"C:\\Users\\91866\\OneDrive\\Desktop\\ECommerce React\\ecommerce\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10580] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.10.1\",\"resolution\":\"C:\\\\Users\\\\91866\\\\OneDrive\\\\Desktop\\\\ECommerce React\\\\ecommerce\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-08-26T04:33:59.997Z] [runtime-status] [10580] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"C:\\Users\\91866\\OneDrive\\Desktop\\ECommerce React\\ecommerce\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10580] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"C:\\\\Users\\\\91866\\\\OneDrive\\\\Desktop\\\\ECommerce React\\\\ecommerce\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-08-26T04:33:59.998Z] [runtime-status] [10580] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10580] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-08-26T04:34:00.000Z] [runtime-status] [10580] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"C:\\Users\\91866\\OneDrive\\Desktop\\ECommerce React\\ecommerce\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10580] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"C:\\\\Users\\\\91866\\\\OneDrive\\\\Desktop\\\\ECommerce React\\\\ecommerce\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-08-26T04:34:00.730Z] [runtime-status] [10580] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10580] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-08-26T04:34:00.731Z] [runtime-status] [10580] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.4.1","resolution":"C:\\Users\\91866\\OneDrive\\Desktop\\ECommerce React\\ecommerce\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10580] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"C:\\\\Users\\\\91866\\\\OneDrive\\\\Desktop\\\\ECommerce React\\\\ecommerce\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2023-08-26T04:34:00.732Z] [runtime-status] [10580] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"C:\\Users\\91866\\OneDrive\\Desktop\\ECommerce React\\ecommerce\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10580] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"C:\\\\Users\\\\91866\\\\OneDrive\\\\Desktop\\\\ECommerce React\\\\ecommerce\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-08-26T04:34:00.735Z] [runtime-status] [10580] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.10.1","resolution":"C:\\Users\\91866\\OneDrive\\Desktop\\ECommerce React\\ecommerce\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10580] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.10.1\",\"resolution\":\"C:\\\\Users\\\\91866\\\\OneDrive\\\\Desktop\\\\ECommerce React\\\\ecommerce\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-08-26T04:34:00.742Z] [runtime-status] [10580] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"C:\\Users\\91866\\OneDrive\\Desktop\\ECommerce React\\ecommerce\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10580] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"C:\\\\Users\\\\91866\\\\OneDrive\\\\Desktop\\\\ECommerce React\\\\ecommerce\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-08-26T04:34:00.743Z] [runtime-status] [10580] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.10.1","resolution":"C:\\Users\\91866\\OneDrive\\Desktop\\ECommerce React\\ecommerce\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10580] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.10.1\",\"resolution\":\"C:\\\\Users\\\\91866\\\\OneDrive\\\\Desktop\\\\ECommerce React\\\\ecommerce\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2023-08-26T04:34:01.224Z] [runtime-status] [10580] Functions runtime initialized. {"cwd":"C:\\Users\\91866\\OneDrive\\Desktop\\ECommerce React\\ecommerce\\functions","node_version":"20.5.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10580] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\91866\\\\OneDrive\\\\Desktop\\\\ECommerce React\\\\ecommerce\\\\functions\",\"node_version\":\"20.5.1\"}"}}
+[debug] [2023-08-26T04:34:01.225Z] [runtime-status] [10580] Listening to port: \\?\pipe\fire_emu_8936382d83e6b2b4 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10580] Listening to port: \\\\?\\pipe\\fire_emu_8936382d83e6b2b4"}}
+[debug] [2023-08-26T04:34:01.296Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE"}}
+[debug] [2023-08-26T04:34:01.296Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-08-26T04:34:01.299Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY"}}
+[debug] [2023-08-26T04:34:02.054Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 755.8524ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 755.8524ms"}}
+[debug] [2023-08-26T04:34:02.056Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE"}}
+[debug] [2023-08-26T04:34:02.057Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-08-26T04:34:02.057Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-08-26T04:34:02.057Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T04:40:01.628Z] [work-queue] {"queuedWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T04:40:01.628Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T04:40:01.629Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T04:40:01.628Z"],"workRunningCount":1}
+[debug] [2023-08-26T04:40:01.629Z] Accepted request POST /e-commerce-4905f/us-central1/api/payments/create?total=25096 --> us-central1-api
+[debug] [2023-08-26T04:40:01.635Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-08-26T04:40:01.635Z] [functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=25096, mapping to path=/payments/create?total=25096 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=25096, mapping to path=/payments/create?total=25096"}}
+[debug] [2023-08-26T04:40:01.635Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-08-26T04:40:01.636Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY"}}
+[debug] [2023-08-26T04:40:02.965Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 1328.8995ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 1328.8995ms"}}
+[debug] [2023-08-26T04:40:02.966Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE"}}
+[debug] [2023-08-26T04:40:02.966Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-08-26T04:40:02.966Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-08-26T04:40:02.966Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T04:40:27.498Z] [work-queue] {"queuedWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T04:40:27.498Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T04:40:27.499Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T04:40:27.498Z"],"workRunningCount":1}
+[debug] [2023-08-26T04:40:27.499Z] Accepted request POST /e-commerce-4905f/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2023-08-26T04:40:27.503Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-08-26T04:40:27.503Z] [functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2023-08-26T04:40:27.503Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-08-26T04:40:27.504Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY"}}
+[debug] [2023-08-26T04:40:27.777Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 272.9739ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 272.9739ms"}}
+[debug] [2023-08-26T04:40:27.778Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE"}}
+[debug] [2023-08-26T04:40:27.778Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-08-26T04:40:27.778Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-08-26T04:40:27.778Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T05:07:15.824Z] [work-queue] {"queuedWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T05:07:15.822Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T05:07:15.832Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T05:07:15.822Z"],"workRunningCount":1}
+[debug] [2023-08-26T05:07:15.833Z] Accepted request POST /e-commerce-4905f/us-central1/api/payments/create?total=25096 --> us-central1-api
+[debug] [2023-08-26T05:07:15.862Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-08-26T05:07:15.864Z] [functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=25096, mapping to path=/payments/create?total=25096 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=25096, mapping to path=/payments/create?total=25096"}}
+[debug] [2023-08-26T05:07:15.865Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-08-26T05:07:15.875Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY"}}
+[debug] [2023-08-26T05:07:16.726Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 851.5496ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 851.5496ms"}}
+[debug] [2023-08-26T05:07:16.728Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE"}}
+[debug] [2023-08-26T05:07:16.728Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-08-26T05:07:16.729Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-08-26T05:07:16.729Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T05:16:05.114Z] [work-queue] {"queuedWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T05:16:05.111Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T05:16:05.124Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T05:16:05.111Z"],"workRunningCount":1}
+[debug] [2023-08-26T05:16:05.126Z] Accepted request POST /e-commerce-4905f/us-central1/api/payments/create?total=46291 --> us-central1-api
+[debug] [2023-08-26T05:16:05.168Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-08-26T05:16:05.170Z] [functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=46291, mapping to path=/payments/create?total=46291 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=46291, mapping to path=/payments/create?total=46291"}}
+[debug] [2023-08-26T05:16:05.171Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-08-26T05:16:05.179Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY"}}
+[debug] [2023-08-26T05:16:06.275Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 1096.4718ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 1096.4718ms"}}
+[debug] [2023-08-26T05:16:06.276Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE"}}
+[debug] [2023-08-26T05:16:06.276Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-08-26T05:16:06.276Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-08-26T05:16:06.276Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T05:17:08.403Z] [work-queue] {"queuedWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T05:17:08.403Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T05:17:08.404Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T05:17:08.403Z"],"workRunningCount":1}
+[debug] [2023-08-26T05:17:08.404Z] Accepted request POST /e-commerce-4905f/us-central1/api/payments/create?total=46291 --> us-central1-api
+[debug] [2023-08-26T05:17:08.408Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-08-26T05:17:08.408Z] [functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=46291, mapping to path=/payments/create?total=46291 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=46291, mapping to path=/payments/create?total=46291"}}
+[debug] [2023-08-26T05:17:08.408Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-08-26T05:17:08.411Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY"}}
+[debug] [2023-08-26T05:17:08.742Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 331.3914ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 331.3914ms"}}
+[debug] [2023-08-26T05:17:08.743Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE"}}
+[debug] [2023-08-26T05:17:08.743Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-08-26T05:17:08.744Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-08-26T05:17:08.744Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T05:31:45.293Z] [work-queue] {"queuedWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T05:31:45.293Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T05:31:45.297Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T05:31:45.293Z"],"workRunningCount":1}
+[debug] [2023-08-26T05:31:45.297Z] Accepted request POST /e-commerce-4905f/us-central1/api/payments/create?total=25096 --> us-central1-api
+[debug] [2023-08-26T05:31:45.309Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-08-26T05:31:45.310Z] [functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=25096, mapping to path=/payments/create?total=25096 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=25096, mapping to path=/payments/create?total=25096"}}
+[debug] [2023-08-26T05:31:45.311Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-08-26T05:31:45.314Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY"}}
+[debug] [2023-08-26T05:31:49.803Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 4489.9898ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 4489.9898ms"}}
+[debug] [2023-08-26T05:31:49.805Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE"}}
+[debug] [2023-08-26T05:31:49.805Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-08-26T05:31:49.805Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-08-26T05:31:49.805Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T05:37:58.686Z] [work-queue] {"queuedWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T05:37:58.686Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T05:37:58.687Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T05:37:58.686Z"],"workRunningCount":1}
+[debug] [2023-08-26T05:37:58.687Z] Accepted request POST /e-commerce-4905f/us-central1/api/payments/create?total=50192 --> us-central1-api
+[debug] [2023-08-26T05:37:58.693Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-08-26T05:37:58.694Z] [functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=50192, mapping to path=/payments/create?total=50192 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=50192, mapping to path=/payments/create?total=50192"}}
+[debug] [2023-08-26T05:37:58.695Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-08-26T05:37:58.696Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY"}}
+[debug] [2023-08-26T05:38:03.391Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 4694.9014ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 4694.9014ms"}}
+[debug] [2023-08-26T05:38:03.393Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE"}}
+[debug] [2023-08-26T05:38:03.393Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-08-26T05:38:03.393Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-08-26T05:38:03.393Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T06:54:34.295Z] [work-queue] {"queuedWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T06:54:34.293Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T06:54:34.306Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T06:54:34.293Z"],"workRunningCount":1}
+[debug] [2023-08-26T06:54:34.306Z] Accepted request POST /e-commerce-4905f/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2023-08-26T06:54:34.356Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-08-26T06:54:34.358Z] [functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2023-08-26T06:54:34.359Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-08-26T06:54:34.365Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY"}}
+[debug] [2023-08-26T06:54:34.819Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 454.6151ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 454.6151ms"}}
+[debug] [2023-08-26T06:54:34.820Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE"}}
+[debug] [2023-08-26T06:54:34.820Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-08-26T06:54:34.821Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-08-26T06:54:34.821Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T06:54:53.112Z] [work-queue] {"queuedWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T06:54:53.112Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T06:54:53.113Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-commerce-4905f/us-central1/api/payments/create-2023-08-26T06:54:53.112Z"],"workRunningCount":1}
+[debug] [2023-08-26T06:54:53.113Z] Accepted request POST /e-commerce-4905f/us-central1/api/payments/create?total=25096 --> us-central1-api
+[debug] [2023-08-26T06:54:53.117Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-08-26T06:54:53.117Z] [functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=25096, mapping to path=/payments/create?total=25096 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-4905f/us-central1/api/payments/create?total=25096, mapping to path=/payments/create?total=25096"}}
+[debug] [2023-08-26T06:54:53.117Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-08-26T06:54:53.118Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: BUSY"}}
+[debug] [2023-08-26T06:54:53.392Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 275.1854ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 275.1854ms"}}
+[debug] [2023-08-26T06:54:53.394Z] [worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2ba57f0b-13dc-40ea-bd2b-5d40dea3ad7a]: IDLE"}}
+[debug] [2023-08-26T06:54:53.394Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-08-26T06:54:53.394Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-08-26T06:54:53.394Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-26T06:59:46.786Z] Received signal SIGHUP 1
