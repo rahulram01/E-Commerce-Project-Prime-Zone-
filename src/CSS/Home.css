@@ -1,0 +1,63 @@
+.home {
+  position: relative;
+}
+
+
+.home__container {
+  margin-top: 20vh;
+
+}
+
+.home__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Add the desired gap between products */
+  margin-top: 20px; /* Adjust the top margin to control the gap between products */
+}
+
+.home__image {
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  transform: translateY(-50%);
+  animation: float 3s ease-in-out infinite;
+  position: relative;
+  top: 500px;
+  height: auto;
+  position: sticky;
+
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(-50%);
+  }
+  50% {
+    transform: translateY(-53%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+@media only screen and (max-width: 700px) {
+
+  .home__row {
+    flex-direction: column;
+ 
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .home__image {
+  height: 100vh;
+/* to */
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:10px ;
+
+  }
+  }
+  @media (max-width: 768px) {
+    /* Styles for smaller screens */
+  }
+  
